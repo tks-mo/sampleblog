@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #efefef;
+  margin: 0;
+}
+
+.container {
+  background-color:#fff;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.header-title-area {
+  padding: 40px;
+}
+
+.logo {
+  font-size: 32px;
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+.header-navigation {
+  background-color: #333;
+  width: 100%;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0px 24px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  background-color:#fff;
+  width: 920px;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.text-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #efefef;
+}
+
+.card-contents {
+  padding: 30px;
+  display: block;
+  margin: 0;
+}
+
+.left-contents {
+  width: 600px;
+  float: left;
+}
+
+.right-contents {
+  width: 320px;
+  float: right;
+}
+
+.blog-list-area {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.blog-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.blog-image {
+  width: 180px;
+  margin-right: 20px;
+  float: left;
+}
+
+.blog {
+  width: 340px;
+  float: right;
+}
+
+img {
+  width: 180px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+p {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.blog-list-area2 {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.blog-list-area2:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.blog-image2 {
+  width: 80px;
+  margin-right: 20px;
+  float: left;
+}
+
+.blog2 {
+  width: 160px;
+  float: right;
+}
+
+.img2 {
+  width: 80px;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+  margin: 0 30px;
+  padding: 16px 0;
+  border-top: 2px solid #efefef;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
